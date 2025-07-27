@@ -459,8 +459,8 @@ function getSampleImages(hobbyType) {
 function getSampleCertificates(category) {
     const certImageMap = {
         technical: [
-            'https://images.unsplash.com/photo-1592609931095-54a2168ae893?w=500&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1550439062-609e1531270e?w=500&h=600&fit=crop',
+            'images/nptel.jpeg',
+            'images/itdp.jpeg',
             'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&h=600&fit=crop'
         ],
         industrial: [
@@ -469,9 +469,8 @@ function getSampleCertificates(category) {
             'https://images.unsplash.com/photo-1560959942-7ca23a8527a8?w=500&h=600&fit=crop'
         ],
         academic: [
-            'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1607237138185-e894ee31b2af?w=500&h=600&fit=crop'
+            'images/scp.jpeg',
+            'images/ssc.jpeg',
         ],
         professional: [
             'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&h=600&fit=crop',
