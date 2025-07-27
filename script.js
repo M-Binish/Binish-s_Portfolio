@@ -460,8 +460,7 @@ function getSampleCertificates(category) {
     const certImageMap = {
         technical: [
             'images/nptel.jpeg',
-            'images/itdp.jpeg',
-            'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&h=600&fit=crop'
+            'images/itdp.jpeg'
         ],
         industrial: [
             'https://images.unsplash.com/photo-1581092916322-3c1a415797f8?w=500&h=600&fit=crop',
