@@ -455,13 +455,32 @@ function getSampleImages(hobbyType) {
     return imageMap[hobbyType] || [];
 }
 
+// --- UPDATED FUNCTION ---
 function getSampleCertificates(category) {
-    // Sample certificate placeholder images
-    return [
-        'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
-        'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300',
-        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300'
-    ];
+    const certImageMap = {
+        technical: [
+            'https://images.unsplash.com/photo-1592609931095-54a2168ae893?w=500&h=600&fit=crop',
+            'https://images.unsplash.com/photo-1550439062-609e1531270e?w=500&h=600&fit=crop',
+            'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&h=600&fit=crop'
+        ],
+        industrial: [
+            'https://images.unsplash.com/photo-1581092916322-3c1a415797f8?w=500&h=600&fit=crop',
+            'https://images.unsplash.com/photo-1621999814399-52d8a8a436e8?w=500&h=600&fit=crop',
+            'https://images.unsplash.com/photo-1560959942-7ca23a8527a8?w=500&h=600&fit=crop'
+        ],
+        academic: [
+            'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500&h=600&fit=crop',
+            'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=500&h=600&fit=crop',
+            'https://images.unsplash.com/photo-1607237138185-e894ee31b2af?w=500&h=600&fit=crop'
+        ],
+        professional: [
+            'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&h=600&fit=crop',
+            'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=600&fit=crop',
+            'https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=500&h=600&fit=crop'
+        ]
+    };
+    // Return the specific array for the category, or a default empty array
+    return certImageMap[category] || [];
 }
 
 function uploadCertificate(category) {
