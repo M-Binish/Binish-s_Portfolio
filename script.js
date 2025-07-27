@@ -447,7 +447,7 @@ function getSampleImages(hobbyType) {
         ],
         photography: [
             'images/pp.jpeg',
-            'images/flower.jpeg',
+            'images/flower2.jpeg',
             'images/sea.jpeg'
         ]
     };
