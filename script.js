@@ -455,7 +455,7 @@ function getSampleImages(hobbyType) {
     return imageMap[hobbyType] || [];
 }
 
-// --- UPDATED FUNCTION ---
+// --- CORRECTED FUNCTION ---
 function getSampleCertificates(category) {
     const certImageMap = {
         technical: [
@@ -463,23 +463,21 @@ function getSampleCertificates(category) {
             'images/itdp.jpeg'
         ],
         industrial: [
+            // Using placeholders for this category as local files were not specified
             'https://images.unsplash.com/photo-1581092916322-3c1a415797f8?w=500&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1621999814399-52d8a8a436e8?w=500&h=600&fit=crop',
             'https://images.unsplash.com/photo-1560959942-7ca23a8527a8?w=500&h=600&fit=crop'
         ],
         academic: [
             'images/scp.jpeg',
-            'images/ssc.jpeg',
-        ],
-        professional: [
-            'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=600&fit=crop',
-            'https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=500&h=600&fit=crop'
+            'images/ssc.jpeg'
         ]
+        // Note: The 'professional' category was removed from the script 
+        // as it is not present in the provided HTML file.
     };
     // Return the specific array for the category, or a default empty array
     return certImageMap[category] || [];
 }
+
 
 function uploadCertificate(category) {
     const input = document.createElement('input');
