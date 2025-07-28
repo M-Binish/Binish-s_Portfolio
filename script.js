@@ -467,8 +467,7 @@ function getSampleCertificates(category) {
             'https://images.unsplash.com/photo-1560959942-7ca23a8527a8?w=500&h=600&fit=crop'
         ],
         academic: [
-            'images/scp.jpeg',
-            'images/ssc.jpeg'
+            'images/scp.jpeg'
         ]
         // Note: The 'professional' category was removed from the script 
         // as it is not present in the provided HTML file.
